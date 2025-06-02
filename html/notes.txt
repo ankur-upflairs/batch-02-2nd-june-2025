@@ -1,0 +1,77 @@
+hyper text --> connected text 
+        Hypertext refers to text that contains links, allowing users to navigate between different 
+        sections of the same document or to other documents. These links, called hyperlinks,
+        enable a non-linear reading experience and are fundamental to the World Wide Web. Hypertext is 
+        structured using markup languages like HTML. 
+markup language -> use symbol or charactor to show information
+
+tag -> to tell the browser what to display and how to display 
+p => paragraph
+opening ->    <p> 
+closing  ->      </p>
+
+element -> opening + content + closing
+
+attribute -> to give extra information about tag
+<p align="center"> hello every one </p>
+<!DOCTYPE html> -> document type "html" and version 5
+
+head -> meta information
+body -> complete visual 
+
+ 
+  <!-- Blockquote -->
+  <blockquote>
+    "This is a block quote."
+  </blockquote>
+
+  <!-- Preformatted Text -->
+  <pre>
+    Line 1
+      Line 2 (indented)
+    Line 3
+  </pre>
+
+
+  <!-- Emphasis and Strong -->
+  <p>This is <em>emphasized</em> and <strong>strong</strong> text.</p>
+
+  <!-- Bold and Italic -->
+  <p>This is <b>bold</b> and <i>italic</i> text.</p>
+
+  <!-- Abbreviation -->
+  <p>The acronym <abbr title="World Health Organization">WHO</abbr> is well known.</p>
+
+  <!-- Citation -->
+  <p>According to <cite>Wikipedia</cite>, HTML is a markup language.</p>
+
+  <!-- Code -->
+  <p>Use the <code>&lt;br&gt;</code> tag to break lines.</p>
+
+  <!-- Mark -->
+  <p>This is <mark>highlighted</mark> text.</p>
+
+  <!-- Small Text -->
+  <p>This is <small>small text</small> for disclaimers or notes.</p>
+
+  <!-- Subscript and Superscript -->
+  <p>Chemical: H<sub>2</sub>O, Equation: E = mc<sup>2</sup></p>
+
+  <!-- Inserted and Deleted Text -->
+  <p>This is <ins>inserted</ins> and <del>deleted</del> text.</p>
+
+ 
+
+ 
+  <!-- Div Container -->
+  <div>
+    <p>Paragraph inside a div.</p>
+  </div>
+
+  <!-- Span -->
+  <p>This is a <span style="color: green;">green span</span> inside a paragraph.</p>
+
+
+
+
+

@@ -1,0 +1,50 @@
+=======================================
+TASK 1: TRAVEL BUCKET LIST
+=======================================
+
+Objective:
+----------
+Create a "Travel Bucket List" webpage using only HTML.
+
+Requirements:
+-------------
+- Use the following HTML tags: <h1>, <h2>, <p>, <img>, <a>, <ul> or <ol>
+- Add at least 3 dream destinations
+- Each destination should include:
+  - A heading for the destination name
+  - An image (with alt text)
+  - A short description
+  - A link to an external tourism or travel website (opens in a new tab)
+
+Bonus:
+------
+- Use ordered list (<ol>) to number your destinations
+- Include descriptive alt texts for all images
+
+
+====================================
+TASK 2: BOOK OVERVIEW PAGE
+====================================
+
+Objective:
+----------
+Create a "Book Overview" webpage that introduces a book and outlines its contents.
+
+Requirements:
+-------------
+- Use the following HTML tags: <h1>, <h2>, <p>, <img>, <ol>, <ul>
+- Include:
+  - Book title (as a main heading)
+  - Cover image (with alt text)
+  - A short description of the book
+  - A nested list structure for chapters and sub-chapters:
+    - At least 3 chapters
+    - Each chapter must contain at least 2 sub-chapters
+
+Bonus:
+------
+- Make your table of contents visually easy to follow using indentation
+- Use meaningful names for chapters and sub-chapters
+
+
+

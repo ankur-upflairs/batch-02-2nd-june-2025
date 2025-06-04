@@ -7,21 +7,28 @@
   </head>
   <body>
     <!-- name, roll no , class -->
-    <table border="1" cellspacing="0" width="400" height="150">
+    <table border="1" cellspacing="0" width="500" height="150">
+     <caption>Person's Table</caption>
       <tr>
         <th>Person</th>
         <th>Age</th>
         <th>Occupation</th>
+        <th>income source</th>
       </tr>
       <tr align="center" >
         <td>sunil</td>
         <td>22</td>
-        <td>doctor</td>
+        <td colspan="2">doctor</td>
       </tr>
       <tr valign="bottom" >
         <td>Gagan</td>
-        <td>45</td>
+        <td rowspan="2">45</td>
         <td>teacher</td>
+        <td rowspan="2" >rent</td>
+      </tr>
+      <tr valign="bottom" >
+        <td>pawan</td>        
+        <td>mechanic</td>
       </tr>
     </table>
   </body>

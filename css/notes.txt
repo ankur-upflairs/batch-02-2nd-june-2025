@@ -1,0 +1,7 @@
+selector{
+    property: value;
+}
+
+common selector => element , id , class 
+
+

@@ -1,0 +1,11 @@
+h3{
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* apply class to an element  */
+/* to use class in css , add . (dot ) before class_name  */
+.paragraph {
+    font-weight: 900;
+    color: green;
+}

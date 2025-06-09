@@ -5,7 +5,9 @@ git -v
 set up github user first
 git config --global user.name "user_name"
 git config --global user.email "github_email"
-
+------------------
+create repo on github
+----------------------
 git clone https://github.com/ankur-upflairs/test6.git
 
 git add .

@@ -16,6 +16,17 @@ let d = `hello everyone,
 // console.log(a.endsWith('lo'))
 // console.log(a.startsWith('he'))
 // console.log(a.length)
+// console.log(a.includes('el'))
+// console.log(a.indexOf('el'))
+// console.log(a.lastIndexOf('l'))
+// console.log(a.padStart(7,'$'))
+let e = '       abc     '
+// console.log(e,e.trim(),e.trimStart())
+// console.log(a.repeat(2))
+// console.log(a.replace('l','x'),a.replaceAll('l','x'))
+// console.log(a.slice(1,4))
+// console.log(a.split(''))
+console.log(d.split(' '))
 
 
 

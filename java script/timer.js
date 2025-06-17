@@ -21,5 +21,11 @@
 // in miliseconds 
 
 // make a function that prints 100 to 1 no using timer 
-
+// let start = Date.now()
+// function count(){
+//     for(let i =0;i<1000000000;i++){}
+// }
+// count()
+// let end = Date.now()
+// console.log(end - start)
 

@@ -1,0 +1,55 @@
+Assignment Title: JavaScript Practice – Math, Date, Timers & DOM
+
+Objective:
+To practice core JavaScript concepts related to built-in objects like Math and Date, working with timers, and manipulating DOM using innerText and innerHTML (without events).
+
+Instructions:
+- Write your code in a `.html` file using a `<script>` tag or link a `.js` file.
+- Use console.log for JS output and `<div>`/`<p>` tags to show results in DOM.
+- Do not use buttons or event listeners.
+- Use `window.onload` to run DOM-related code.
+
+📐 MATH QUESTIONS (3)
+
+1. **Generate a Random Number Between 1 and 100**  
+   Write a function `getRandom()` that returns a random number between 1 and 100.
+
+2. **Find Square Root of Any Number**  
+   Write a function `getSqrt(num)` that returns the square root of a number using `Math.sqrt()`.
+
+3. **Round Up, Down, and to Nearest**  
+   Given a number, display all 3 values:  
+   `Math.floor()`, `Math.ceil()`, and `Math.round()`  
+   Example: Input → 4.7 → Output → 4, 5, 5
+
+🕒 DATE QUESTIONS (3)
+
+1. **Display Current Date and Time**  
+   Show the current date and time using `new Date()` in a `<div>`.
+
+2. **Show Only Current Year**  
+   Extract and display the current year using `getFullYear()`.
+
+3. **Calculate Days Left in the Year**  
+   Write a function to calculate how many days are left until Dec 31 of the current year.
+
+⏱️ TIMERS (2)
+
+1. **Countdown Timer (Fixed 5 Seconds)**  
+   Create a countdown that prints numbers from 5 to 1 in the console using `setInterval`, then prints “Time’s up!”.
+
+2. **Delayed Welcome Message**  
+   Use `setTimeout` to show a welcome message in the DOM after 2 seconds.
+
+🧪 DOM PRACTICAL (3)
+
+1. **Display Hello World using `innerText`**  
+   Write JS that sets the text of a `<p>` tag to "Hello World".
+
+2. **Display HTML inside a `div` using `innerHTML`**  
+   Inject a bold HTML line: `<b>JavaScript is Fun</b>` inside a `<div>` using JS.
+
+3. **Inject List from Array**  
+   Given an array `["HTML", "CSS", "JS"]`, display it as a list inside a container using `innerHTML`.
+
+

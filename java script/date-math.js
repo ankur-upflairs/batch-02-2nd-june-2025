@@ -6,6 +6,12 @@
 // console.log(Math.max(34,23))
 // console.log(Math.pow(3,3))
 // console.log(Math.random())
-
 //make a fn to generate a random no. between 1-100
+let date = new Date()
+// let date = new Date(2025,4,10)
 
+// console.log(date.getDate())
+// console.log(Date.now())
+// console.log(date)
+// date.setDate(10)
+// console.log(date)

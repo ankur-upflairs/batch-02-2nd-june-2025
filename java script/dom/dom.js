@@ -37,6 +37,74 @@ let para = document.getElementById('a')
 // On mouse over, show tooltip text using innerHTML and attribute manipulation.
 // display : none /block 
 
+// let tooltip = document.querySelector('.z')
+// let tooltipText = document.querySelector('.y')
+// tooltip.addEventListener('mouseover',function(){
+//     tooltipText.style.display = 'block'
+// })
+
+// tooltip.addEventListener('mouseleave',function(){
+//     tooltipText.style.display = 'none'
+// })
+//class manipulation =>
+let para1 = document.getElementById('c')
+// para1.classList.remove('b')
+para1.classList.add('c')
+para1.classList.toggle('b')
+// Toggle between light and dark mode using classList.toggle()
+// On mouse enter, add a highlight class; on mouse leave, remove it.
+
+
+// let mode = document.getElementById('mode')
+
+// mode.addEventListener('click',function(){
+//     let text = this.innerText
+//     if(text == 'Dark Mode'){
+//         this.innerText = 'Light Mode'
+//         document.body.classList.toggle('dark')
+//     }
+//     else{
+//          this.innerText = 'Dark Mode'
+//         document.body.classList.toggle('dark')
+
+        
+//     }
+// })
+
+let box = document.querySelector('.box')
+let left = 0
+setInterval(function(){
+    // console.log(box)
+    box.style.marginLeft =  `${left}px`
+    
+    left++;
+    if(left == 500){
+        left = 0
+    }
+    // console.log(left)
+},10)
+
+// localStorage.setItem('title', 'exprense')
+// console.log(localStorage.getItem('title'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

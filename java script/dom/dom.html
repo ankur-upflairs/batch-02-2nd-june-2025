@@ -4,13 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .z{
+            position: relative;
+        }
+        .y{
+            position: absolute;
+            border: 1px solid;
+            padding: 5px;
+            left: 100px;
+        }
+        .a{color:red}
+        .b{font-size: 30px;}
+        .c{
+            background-color: tan;
+        }
+        .dark{
+            background-color: darkgrey;
+        }
+        .box{width: 100px;height: 100px;border: 1px solid;}
+    </style>
 </head>
 <body>
     <p>hello</p>
     <p class="x" id="a" title="good afternoon" >everyone</p>
     <h3 class="x" id="b" >good <b>afternoon</b> </h3>
-    <script src="dom.js"></script>
     <button id="btn" onclick="showMsg()" >click here</button>
+    <p class="z">hover here to tooltip <span class="y" style="display: none;" >tooltip example</span></p>
+    <!-- class manipulation  -->
+    <p id="c" class="a b"> hello my , name is ankur singh</p>
+    <button id="mode">Dark Mode</button>
+    <div class="box"></div>
+    <script src="dom.js"></script>
     <script src="events.js"></script>
 
 </body>

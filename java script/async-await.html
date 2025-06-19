@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .day{
+            border: 1px solid;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="current"></div>
+    <div class="daily"></div>
+    <script>
+        let current = document.querySelector('.current')
+        let daily = document.querySelector('.daily')
+        async function getData(){
+            try {
+                let res = await fetch('https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=sunrise,sunset,temperature_2m_min,temperature_2m_max&hourly=temperature_2m&current=temperature_2m&timezone=auto')                
+                let data = await res.json()
+                current.innerHTML = `Current Temperature : - ${data.current.temperature_2m}<sup>0</sup>C`
+                let dailyHtml = '';
+                for(let i = 0; i<7; i++){
+                   dailyHtml+= `<div class="day"> Date : - ${data.daily.time[i]} | 
+                        max :- ${data.daily.temperature_2m_max[i]} | 
+                        min : - ${data.daily.temperature_2m_min[i]} | 
+                        sunrise : - ${data.daily.sunrise[i]} | 
+                        sunset : - ${data.daily.sunset[i]}
+                    </div>`
+                }
+                daily.innerHTML = dailyHtml
+                console.log(data)
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        getData()
+    </script>
+</body>
+</html>

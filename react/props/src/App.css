@@ -1,0 +1,5 @@
+.card{
+  width: 200px;border: 1px solid;
+}
+.card h3{ text-align: center;}
+.card p{ text-align: center;}

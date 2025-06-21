@@ -1,0 +1,36 @@
+Part 1: Friends Card Assignment
+🎯 Task:
+Create a data array of at least 5 friends.
+
+Each friend should have the following fields:
+
+name (string)
+
+image (URL string)
+
+hobby (string)
+
+quote (string)
+
+contact (email or phone string)
+
+Create a FriendCard component that receives these fields as props and displays them.
+
+
+🔹 Part 2: Products Card Assignment
+🎯 Task:
+Create a data array of at least 5 products.
+
+Each product should have the following fields:
+
+name (string)
+
+image (URL string)
+
+price (string or number)
+
+description (string)
+
+stock (string like "In Stock", "Out of Stock")
+
+Create a ProductCard component that receives these fields as props and displays them.

@@ -7,12 +7,24 @@ import './blogs.css'
 function Blogs() {
   return (
     <div className='blogs'>
-       <Blog title={data[0].title} image={data[0].image} description={data[0].description} />
-       <Blog title={data[2].title} image={data[2].image} description={data[2].description} />
-       <Blog {...data[1]} />
+       {data.map((post,index)=>{
+        return <Blog key={post.id} {...post} />
+       })}
     </div>
   )
 }
+
+
+
+// function Blogs() {
+//   return (
+//     <div className='blogs'>
+//        <Blog title={data[0].title} image={data[0].image} description={data[0].description} />
+//        <Blog title={data[2].title} image={data[2].image} description={data[2].description} />
+//        <Blog {...data[1]} />
+//     </div>
+//   )
+// }
 //make a task  json data with field - name , description and make a reusable component with props 
 
 // function Blogs() {

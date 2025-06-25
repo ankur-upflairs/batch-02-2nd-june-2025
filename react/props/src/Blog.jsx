@@ -1,17 +1,49 @@
 import React from 'react'
 
-//version 3 => destructuring 
+
+
+
 function Blog({image, title , description}) {
-// function Blog(props) {
-//     const {image, title , description} = props
+
+  let imgStyle={
+    width:'100%'
+  }
+  //text-align , => remove hyphen , convert it to camelcase => textAlign
   return (
-    <div className='card'>
-        <img width={200} src={image} alt="" />
-        <h3>{title}</h3>
+    <div style={{
+      width:'250px',
+      border:'1px solid'
+    }}>
+        <img style={imgStyle} src={image} alt="" />
+        <h3 style={{textAlign:'center'}}>{title}</h3>
         <p>{description}</p>
+        <button className='bg-primary' style={{
+          backgroundColor:'transparent',
+          border:'1px solid',
+          padding: '4px 8px',
+          borderRadius:'4px'
+        }}>know more</button>
     </div>
   )
 }
+
+
+
+
+
+//version 3 => destructuring 
+// function Blog({image, title , description}) {
+// // function Blog(props) {
+// //     const {image, title , description} = props
+
+//   return (
+//     <div className='card'>
+//         <img width={200} src={image} alt="" />
+//         <h3>{title}</h3>
+//         <p>{description}</p>
+//     </div>
+//   )
+// }
 
 
  //version 2

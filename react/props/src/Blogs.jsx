@@ -2,10 +2,11 @@ import React from 'react'
 import Blog from './Blog'
 import { data } from './data'
 
+import './blogs.css'
 
 function Blogs() {
   return (
-    <div>
+    <div className='blogs'>
        <Blog title={data[0].title} image={data[0].image} description={data[0].description} />
        <Blog title={data[2].title} image={data[2].image} description={data[2].description} />
        <Blog {...data[1]} />

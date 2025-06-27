@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-function Blog({image, title , description}) {
+function Blog({image, title , description,isVarified}) {
 
   let imgStyle={
     width:'100%'
@@ -12,10 +12,12 @@ function Blog({image, title , description}) {
   return (
     <div style={{
       width:'250px',
-      border:'1px solid'
+      border:'1px solid',
+      // backgroundColor: isVarified? 'green': 'red'
     }}>
         <img style={imgStyle} src={image} alt="" />
-        <h3 style={{textAlign:'center'}}>{title}</h3>
+        <h3 className={`${isVarified ? "varified": "not-varified"}`}
+        style={{textAlign:'center'}}>{title}</h3>
         <p>{description}</p>
         <button className='bg-primary' style={{
           backgroundColor:'transparent',
@@ -23,6 +25,7 @@ function Blog({image, title , description}) {
           padding: '4px 8px',
           borderRadius:'4px'
         }}>know more</button>
+        {isVarified ? 'varified':'not varified'}
     </div>
   )
 }

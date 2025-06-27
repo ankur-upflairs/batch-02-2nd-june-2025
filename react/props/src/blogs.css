@@ -5,3 +5,10 @@
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.varified{
+    color: green;
+}
+.not-varified{
+    color: red;
+}

@@ -4,14 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Datafetch from './Datafetch'
 import DataPost from './DataPost'
+import Context from './Context'
 
 function App() {
 
 
   return (
     <>
-    <DataPost />
-     <Datafetch />
+    <Context />
+    {/* <DataPost />
+     <Datafetch /> */}
     </>
   )
 }

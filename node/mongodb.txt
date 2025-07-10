@@ -1,0 +1,16 @@
+sql => no-sql
+Format => table   =>  json like format (document based )
+db  => db 
+table => collection (array of objects)
+row  =>   document
+columns => fields 
+
+[
+{ "name" : "gagan"},
+{ "name" : "aman"}
+]
+
+mongodb+srv://lead:lead123@cluster0.mk94png.mongodb.net/
+ show dbs
+use db_name
+show collections

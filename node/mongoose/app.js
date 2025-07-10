@@ -1,9 +1,13 @@
 const express = require('express')
+const mongoose = require('mongoose')
 const {blogs} = require('./data.js')
 const blogRouter = require('./routes/blogRoutes.js')
 const userRouter = require('./routes/userRoutes.js')
 const app = express()
 
+mongoose.connect('mongodb+srv://lead:lead123@cluster0.mk94png.mongodb.net/test')
+.then(()=>console.log('db connected'))
+.catch(err=>console.log(err))
 
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
